@@ -6,11 +6,13 @@
         <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
     </head>
     <body>
-        <a-scene sq-enablespiderman 
-            sq-refreshrate="rate:90" 
+        <a-scene sq-enablespiderman
+            sq-spawnpoint="position: 85 0.6 -17;"
+            sq-refreshrate="rate:90"
             sq-clippingplane="near: 0.15; far: 900" 
             sq-guestsallowed="true"
             sq-disableteleport
+            sq-friendpositionjoinallowed="false"
             sq-assetbundle="android: https://tokragua.github.io/maze/scene_android; 
                             desktop: https://tokragua.github.io/maze/scene_standalonewindows;">
 
