@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <meta name="sidequest-space-verification" content="da2f3792-d6a6-494c-beb8-b032eb1270e2">
+        <meta property="og:title" content="Mech Wars">
+        <meta property="og:description" content="Work together. Control the Mech">
+        <meta property="og:image" content="https://tokragua.github.io/mechwars/logo_big.png">
+        <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+    </head>
+    <body>
+        <a-scene sq-enablespiderman
+            sq-spawnpoint="position: 50 0 20;"
+            sq-refreshrate="rate:90"
+            sq-clippingplane="near: 0.15; far: 900" 
+            sq-guestsallowed="true"
+            sq-friendpositionjoinallowed="false"
+            sq-assetbundle="android: https://tokragua.github.io/mechwars/scene_android; 
+                            desktop: https://tokragua.github.io/mechwars/scene_standalonewindows;">
+
+        </a-scene>
+    </body>
+</html>
